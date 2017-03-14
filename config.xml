@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.lifetimequartz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Lifetime Quartz</name>
+    <access origin="tel:*" launch-external="yes" />
     <description>Hello World sample application that responds to the deviceready event.</description>
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
     <content src="index.html" />
@@ -115,7 +116,6 @@
         <access origin="tel:*" launch-external="yes" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
-    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -136,4 +136,9 @@
     </platform>
     <allow-intent href="tel:*" />
     <access origin="tel:*" launch-external="yes" />
+    <access origin="tel:*" launch-external="yes"/>
+<access origin="geo:*" launch-external="yes"/>
+<access origin="mailto:*" launch-external="yes"/>
+<access origin="sms:*" launch-external="yes"/>
+<access origin="market:*" launch-external="yes"/>
 </widget>
