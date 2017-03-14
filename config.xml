@@ -107,11 +107,12 @@
         <allow-intent href="market:*" />
         <allow-intent href="mailto:*" />
         <allow-intent href="tel:*" />
+        <access origin="tel:*" launch-external="yes" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        
+        <access origin="tel:*" launch-external="yes" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
     <access origin="*" />
@@ -121,14 +122,18 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <access origin="tel:*" launch-external="yes" />
     <platform name="android">
         <allow-intent href="market:*" />
         <allow-intent href="tel:*" />
+        <access origin="tel:*" launch-external="yes" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <allow-intent href="tel:*" />
+        <access origin="tel:*" launch-external="yes" />
     </platform>
     <allow-intent href="tel:*" />
+    <access origin="tel:*" launch-external="yes" />
 </widget>
